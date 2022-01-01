@@ -60,16 +60,16 @@
 
 ||Identity recognition|Gender recognition|
 |:---|---:|---:|
-|VGG19|62.88% (code \| download)|97.83% (code \| download)|
-|ResNet34|86.34% (code \| download)|98.30% (code \| download)|
-|ResNet101|86.67% (code \| download)|98.40% (code \| download)|
+|VGG19|62.88% ([code](./classification_models/Facial_Identity_Classification_Using_Transfer_Learning_with_VGG19_Resolution_224.ipynb) \| [download](https://postechackr-my.sharepoint.com/:u:/g/personal/dongbinna_postech_ac_kr/ERqtpqjtkIhAs2Q5H28CRR0B5eJzRrxMq_6RaFNvrDW-0A))|97.83% ([code](./classification_models/Face_Gender_Classification_Using_Transfer_Learning_with_VGG19_Resolution_224.ipynb) \| [download](https://postechackr-my.sharepoint.com/:u:/g/personal/dongbinna_postech_ac_kr/EQSvN1P99ANJnL_T_k1Ny_QBZi7sgmzM5cVuhEG97dC9MQ))|
+|ResNet34|86.34% ([code](./classification_models/Facial_Identity_Classification_Using_Transfer_Learning_with_ResNet34_Resolution_224.ipynb) \| [download](https://postechackr-my.sharepoint.com/:u:/g/personal/dongbinna_postech_ac_kr/Ebp8bPYd9FdClrzYmAptAVIBMqKhjyOT26Ew5nnAHlEPcQ))|98.30% ([code](./classification_models/Face_Gender_Classification_Using_Transfer_Learning_with_ResNet34_Resolution_224.ipynb) \| [download](https://postechackr-my.sharepoint.com/:u:/g/personal/dongbinna_postech_ac_kr/ERUDrWOiNwRCqfFNykIzjYoBTnShKj3U15sJZs1TacJgLw))|
+|ResNet101|86.67% ([code](./classification_models/Facial_Identity_Classification_Using_Transfer_Learning_with_ResNet101_Resolution_224.ipynb) \| [download](https://postechackr-my.sharepoint.com/:u:/g/personal/dongbinna_postech_ac_kr/EfZuTpqXwPFAo8jJfzdQWPABkW4qkAne745MfjT1F3gbgQ))|98.40% ([code](./classification_models/Face_Gender_Classification_Using_Transfer_Learning_with_ResNet101_Resolution_224.ipynb) \| [download](https://postechackr-my.sharepoint.com/:u:/g/personal/dongbinna_postech_ac_kr/EV0cM9vCZexOlBgII7Ky8mMB70jNR7Ds-6YQ0kPNX5lvMA))|
 
 ### Encoding (Inversion) Methods
 
-* <b>Inversion accuracy</b> denotes the ratio of test images such that $F(G(E(x))) = F(x)$.
-    * $E(ꞏ)$ is an encoding method that maps an image into a latent vector.
-    * $G(ꞏ)$ is the StyleGAN2 that generates an image given a latent vector.
-    * $F(ꞏ)$ is a classification model that returns a predicted label.
+* <b>Inversion accuracy</b> denotes the ratio of test images such that F(G(E(x))) = F(x).
+    * E(ꞏ) is an encoding method that maps an image into a latent vector.
+    * G(ꞏ) is the StyleGAN2 that generates an image given a latent vector.
+    * F(ꞏ) is a classification model that returns a predicted label.
 
 ||Identity recognition|Gender recognition|
 |:---|---:|---:|
