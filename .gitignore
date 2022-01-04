@@ -2,3 +2,17 @@ classification_models/.ipynb_checkpoints
 classification_models/*_dataset
 classification_models/*_dataset.zip
 classification_models/*.pth
+
+inversion_methods/.ipynb_checkpoints
+inversion_methods/inversion_images
+inversion_methods/inversion_images.zip
+inversion_methods/ninja-linux.zip
+inversion_methods/pixel2style2pixel
+inversion_methods/pretrained_models
+inversion_methods/mtcnn
+inversion_methods/shape_predictor_68_face_landmarks*
+inversion_methods/corrected_facial_identity_images_ResNet18
+inversion_methods/corrected_facial_identity_images_ResNet18.zip
+inversion_methods/*_dataset_test
+inversion_methods/*_dataset_test.zip
+inversion_methods/*.pth
